@@ -13,3 +13,5 @@ The name is pretty self-explanatory. Type in an input and it will check if it is
 Type in multiple inputs and they will get sorted into groups of anagrams.
 <h2>indian_flag.py</h2>
 This one also requires the matplotlib library and is just like the USA flag but it's an Indian flag.
+<h2>piano</h2>
+This project's README will be in that folder.
