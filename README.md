@@ -17,3 +17,5 @@ This one also requires the matplotlib library and is just like the USA flag but 
 This program picks a random input from the array you give.
 <h2>piano</h2>
 This project's README will be in that folder.
+<h2>lcm.py and gcf.py</h2>
+These programs calculate the lowest common multiple and greatest common factor of your two numbers.
