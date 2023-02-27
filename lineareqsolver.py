@@ -1,0 +1,21 @@
+print("This first equation will be in the form ax + by + c = 0")
+a1 = int(input("What is a? "))
+b1 = int(input("What is b? "))
+c1 = int(input("What is c? "))
+print("Your first equation is rendered as " + str(a1) + "x" + " + " + str(b1) + "y" + " + " + str(c1) + " = 0")
+print("This equation will also be in the form ax + by + c = 0.")
+a2 = int(input("What is a? "))
+b2 = int(input("What is b? "))
+c2 = int(input("What is c? "))
+print("Your second equation is rendered as " + str(a2) + "x" + " + " + str(b2) + "y" + " + " + str(c2) + " = 0")
+xdenom = (b1 * c2) - (b2 * c1)
+ydenom = (c1 * a2) - (c2 * a1)
+onedenom = (a1 * b2) - (a2 * b1)
+if onedenom < 0:
+    onedenom = onedenom * -1
+    xdenom = xdenom * -1
+    ydenom = ydenom * -1
+x = str(xdenom) + "/" + str(onedenom)
+y = str(ydenom) + "/" + str(onedenom)
+print("x = " + x)
+print("y = " + y)
